@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags
+    </title>
+    <style>
+        body {
+            font: 1em Arial, Helvetica, sans-serif;
+            background-color: peachpuff;
+        }
+        article#caixa{ 
+            background-color: snow;
+            width: 400px;
+            margin: auto;
+            padding: 1px 10px;
+            box-shadow: 3px 5px 4px black;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+        }
+        a{
+            color: white;
+            text-align: left;
+        }
+        nav > a{
+            margin-right: 10px;
+            text-decoration: none;
+
+        }
+        nav > a :hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: snow;
+            width: 500px;
+            margin: 1px;
+            margin-left: 40px;
+            padding: 10px;
+            box-shadow: 3px 4px 2px black;
+            border-radius: 5px;
+            text-align: justify;
+        }
+        .titulo{
+        text-align: justify;
+        text-align: center;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px black;
+        }
+        header{
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+            margin-left: 40px;
+            width: 500px;
+            padding: 10px;
+        }
+        footer{
+            background-color: gray;
+            text-align: center;
+            width: 500px;
+            padding: 10px;
+            margin-left: 40px;
+            box-shadow: 3px 5px 4px black;
+            border-radius: 5px;
+        } 
+        .autor {
+           padding: 2px;
+           margin: 2px;
+           color: darkred;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <article id="caixa">
+                <h2 class="titulo">O voo do Flamingo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi saepe, quaerat, cum quas ratione itaque enim similique voluptate fugit animi, atque vel eveniet iure esse quisquam quidem dolorem? Mollitia.</p>
+            </article>
+            <article>
+                <h2 class="titulo">Os Mochos que Piam</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus omnis unde consectetur consequatur! Minus officiis, dolor impedit quis nesciunt eligendi ex nam quibusdam accusantium est similique, recusandae, vitae delectus nobis!</p>
+                <aside class="autor">artigo escrito por Mia Couto e Geremias langa</aside>
+            </article>
+        </section>
+        <aside class="artigo">Desenvolvido pela gravadora de Portugal em parceria com Moçambique</aside>
+    </main>
+    <footer>Logman Moçambique</footer>
+</body>
+</html>
